@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap');
+body{
+  background-color: #9cccda;
+  font-family: 'Lexend', sans-serif;
+}
+.App {
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 16rem;
+
+  background: -webkit-linear-gradient(-45deg, #93cede 0%, #75bdd1 41%, #49a5bf 100%);
+  margin-bottom: 2rem;
+}
+
+.icon {
+  font-size: 10rem;
+  padding: 0px;
+  margin: 0px;
+  margin-top: -1rem;
+  text-shadow: rgba(0, 0, 0, 0.699) 0px 5px 15px;
+}
+
+.description {
+  font-size: 1.5rem;
+  color: rgb(236, 235, 234);
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0px;
+  margin-top: -.2rem;
+  text-shadow: rgba(0, 0, 0, 0.548) 0px 5px 15px;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: rgb(236, 235, 234);
+  text-shadow: rgba(0, 0, 0, 0.699) 0px 5px 15px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.title-page{
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-shadow: rgba(0, 0, 0, 0.548) 0px 5px 15px;
+  color: aliceblue;
+}
+
+.search-input{
+  text-align: center;
+  padding: .5rem 1rem .5rem 1rem;
+  width: 16rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: rgb(22, 22, 22);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 1rem;
+}
+
+.select-title{
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: aliceblue;
+}
+
+.ul-select{
+  width: 16rem;
+  text-align: center;
+}
+
+.list-Locations {
+  list-style-type: none;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: .2rem;
+  font-weight: 600;
+  color: rgb(68, 67, 67);
+  margin: .2rem;
+}
+
+.list-Locations:hover{
+  color:aliceblue;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+}
+
+.temp-item{
+  font-size: 2rem;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0;
+  padding: 5px;
+  text-shadow: rgba(0, 0, 0, 0.699) 0px 5px 15px;
+}
+.item {
+  color: aliceblue;
+  font-size: .8rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0;
+  padding: 5px;
+  text-shadow: rgba(0, 0, 0, 0.699) 0px 5px 15px;
+}
+
+h3,
+h2 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  margin-bottom: .8rem;
+}
+
+
