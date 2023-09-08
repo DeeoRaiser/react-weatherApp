@@ -22,7 +22,7 @@ const weatherIcons = {
     '50n': '🌫️', // Niebla (noche)
 }
 
-const API_KEY = '6e0d0d44986a5ae2f69c6642ffc6afac'
+const API_KEY = env.API_KEY
 
 const Weather = () => {
     const [locations, setLocations] = useState([])

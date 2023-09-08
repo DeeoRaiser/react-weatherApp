@@ -1,6 +1,12 @@
 
 Simple weather app, consuming api from openweathermap.org
 
+
+# API KEY .ENV
+API_KEY:'6e0dFDF986DFaeDFf69cDFffc6afac' YOUR API SEE LIKE THIS !
+https://openweathermap.org/api
+
+
 # PICS
 ![Index](./src/pics/1.jpg)
 
