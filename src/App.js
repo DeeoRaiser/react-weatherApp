@@ -1,4 +1,5 @@
 import Weather from './components/Weather'
+import Style from '../src/App.css'
 
 function App() {
   return (
